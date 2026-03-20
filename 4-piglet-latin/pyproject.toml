@@ -1,0 +1,7 @@
+[build-system]
+build-backend = "maturin"
+requires = ["maturin"]
+
+[project]
+name = "expression_lib"
+version = "0.0.1"
