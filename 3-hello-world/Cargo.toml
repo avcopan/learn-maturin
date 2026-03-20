@@ -1,0 +1,11 @@
+[package]
+edition = "2024"
+name = "hello_world"
+version = "0.1.0"
+
+[lib]
+crate-type = ["cdylib"]
+name = "hello_world"
+
+[dependencies]
+pyo3 = "0.25.0"

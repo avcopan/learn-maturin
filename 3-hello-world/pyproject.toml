@@ -1,0 +1,10 @@
+[build-system]
+build-backend = "maturin"
+requires = ["maturin"]
+
+[project]
+name = "hello_world"
+version = "0.1.0"
+
+[tool.maturin]
+features = ["pyo3/extension-module"]
